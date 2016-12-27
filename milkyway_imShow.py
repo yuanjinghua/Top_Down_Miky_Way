@@ -23,7 +23,7 @@ mpl.rc("ytick.major", pad = 8, width = 1)
 mpl.rc("xtick.minor", width = 1)
 mpl.rc("ytick.minor", width = 1)
 
-hmscFullFile = '../../Tables/hmscList_full_20161218.txt'
+hmscFullFile = './hmscList_full_20161218.txt'
 hmscFull = ascii.read(hmscFullFile)
 hmscFull = hmscFull[hmscFull['Dist_B'].mask == False]
 
@@ -104,7 +104,7 @@ ax.scatter(xDet, yDet, s = 85, marker = '+', edgecolor = 'None',
 ax.scatter(0,8.34, s = 85, marker = 'o', c = 'cyan',
 	edgecolors = 'cyan', zorder = 100)
 
-plt.savefig('../../epsFigs/MW_face_on.eps', bbox_inches='tight',
+plt.savefig('./MW_face_on.eps', bbox_inches='tight',
 		papertype='a2')
-plt.savefig('../../epsFigs/MW_face_on.pdf', bbox_inches='tight',
+plt.savefig('./MW_face_on.pdf', bbox_inches='tight',
 		papertype='a2')
