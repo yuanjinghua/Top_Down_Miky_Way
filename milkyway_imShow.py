@@ -15,7 +15,7 @@ from astropy import units as u
 import astropy.coordinates as coords
 from astropy.table import Table, Column, vstack, join
 
-mpl.rc("font", family="Complex", size=16)
+mpl.rc("font", family="serif", size=16)
 mpl.rc("axes", linewidth = 1.0)
 mpl.rc("lines", linewidth = 1.0)
 mpl.rc("xtick.major", pad = 8, width = 1)
