@@ -3,3 +3,4 @@
 This repository contains python scripts for plotting sources on the top-down schematic of the Milky Way.
 
 ![TopDown](TopDown-MW.png)
+{: style="width=50%"}
